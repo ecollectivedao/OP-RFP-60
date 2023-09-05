@@ -7,8 +7,9 @@ It accomplishes this by pooling data from two sources: the Optimism governance p
 
 The primary goal is to maintain a curated list of attestations for granting or revoking the "Have the right to endorse proposals" status to Delegates who possess significant voting power ( >= 0.25% of the total voting supply).
 
-It's also possible to configure the voting power through the config.ts file to adapt to changing governance needs.
-
+It is possible to configure the voting power through the config.ts file to adapt to changing governance needs.
+The pooling is automatically done every 5 seconds, this can also be set up in the config.ts file.
+With the Supervisor it is possible to create, and revoke attestations, and check if there is active suspension.
 
 See more details in [The Optimism RFP #60](https://github.com/ethereum-optimism/ecosystem-contributions/issues/60)
 
@@ -33,11 +34,11 @@ yarn
 yarn start
 ```
 
-Once you lauch the Supervisor, the number of delegates, non revoked attestations, suspensions and attestation to create/revoke will be display like :
+Once you launch the Supervisor, the number of delegates, non-revoked attestations, suspensions, and attestation to create/revoke will be displayed like :
 
 ```shell
 61 delegates have over 0.25% of the total voting supply
-61 non revoked attestation has been found
+61 non-revoked attestation has been found
 9 suspension has been found
 0 active suspension has been found
 => 0 attestations to create
