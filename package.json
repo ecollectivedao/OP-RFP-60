@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "^1.1.0-beta.3",
+    "@urql/core": "^4.1.1",
+    "alchemy-sdk": "^2.9.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "express": "^4.18.2",
+    "siwe": "^2.1.4",
+    "typescript": "^5.1.6"
+  },
+  "name": "op-rfp60-supervisor",
+  "description": "Supervisor for RFP - Dynamic Delegate Attestations #60",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremie-olivier/OP-RFP60-Supervisor.git"
+  },
+  "author": "Lina, Jeremie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremie-olivier/OP-RFP60-Supervisor/issues"
+  },
+  "homepage": "https://github.com/jeremie-olivier/OP-RFP60-Supervisor#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "nodemon": "^3.0.1"
+  }
+}
