@@ -2,7 +2,7 @@ import { Client, cacheExchange, fetchExchange } from "@urql/core";
 import { RIGHT_TO_ENDORSE_SCHEMA, IS_SUSPENDED_SCHEMA } from "./config";
 
 const client = new Client({
-  url: "https://optimism-goerli-bedrock.easscan.org/graphql",
+  url: "https://sepolia.easscan.org/graphql",
   exchanges: [cacheExchange, fetchExchange],
 });
 

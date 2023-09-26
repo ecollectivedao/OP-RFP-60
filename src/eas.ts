@@ -25,7 +25,7 @@ if (!PRIVATE_KEY) {
   process.exit();
 }
 
-const alchemyProviderUrl = `https://opt-goerli.g.alchemy.com/v2/${ALCHEMY_API_KEY}`; // Replace with the appropriate Alchemy URL
+const alchemyProviderUrl = `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`; // Replace with the appropriate Alchemy URL
 
 const provider = new ethers.JsonRpcProvider(alchemyProviderUrl);
 
