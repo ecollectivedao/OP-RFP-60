@@ -6,4 +6,4 @@ export const requiredVotingPower = 25;
 export const IS_SUSPENDED_SCHEMA =
   "0x8bcee6e050ba3f48bbfb1c5d7c7fee1b10ae439b56025704e92322f48ffaacbb";
 
-export const POOLING_INTERVAL = 5 * 1000;
+  export const POOLING_INTERVAL = 5 * 1000;
